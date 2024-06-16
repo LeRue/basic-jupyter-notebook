@@ -1,0 +1,7 @@
+%load_ext watermark
+
+%watermark -v -m -p time,scipy,tabulate,numpy,matplotlib
+
+# date
+print(" ")
+%watermark -u -n -t -z
